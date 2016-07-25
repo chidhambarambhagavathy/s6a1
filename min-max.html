@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Min-Max</title>
+	<script type="text/javascript">
+		var numArr = [1,2,3,4,5,6,7,8,9,10];
+		var min = numArr[0];
+		var max = numArr[1];
+
+		for (i=0; i<numArr.length; i++) {
+			if (numArr[i] < min) {
+				min = numArr[i];
+			}
+			if (numArr[i] > max) {
+				max = numArr[i];
+			}
+		}
+		document.writeln("Min : " + min + " & Max : " + max);
+	</script>
+</head>
+<body>
+
+</body>
+</html>
